@@ -1,0 +1,71 @@
+.messages{
+	overflow: auto;
+	height: 400px;
+}
+
+.controls{
+	padding-top: 5px;
+}
+
+
+.fades-leave-to {
+  transition: opacity .5s
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .8s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+body{
+  background-color: #202337;
+}
+
+.subtitle{
+  color: #10fccb !important;
+}
+.subtitle a:hover{
+  color: #0a82ed;
+}
+
+.column h4{
+  color: #10fccb;
+}
+
+.iscoming{
+  color: #10fccb;
+}
+
+.box{
+  /* background: hsla(202, 100%, 84%, 0.6);
+  border-radius: 4%;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3); */
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  backdrop-filter: blur(25px);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 25px 45px rgba(0,255,0,0.1);
+}
+
+.content p strong{
+  color: #fff;
+}
+
+.content p{
+  color: #10fccb !important;
+}
+
+html{
+  background-color: #202337;
+}
